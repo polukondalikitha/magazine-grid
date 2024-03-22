@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+    border: 2px solid;   
+}
+ header{
+    border: 2px solid;
+    padding-bottom: 9px;
+    background-color:lightgray;
+    margin-bottom: 10px;
+     display: flex;
+    justify-content: space-between;
+    grid-column: 1/5;
+}
+.rip{
+    background-color: blue;
+}
+.DAD{
+    border: 2px solid;
+     padding:50px 0 50px 50px; 
+    width: 550px; 
+    font-size: 25px;  
+    background-color: lightgoldenrodyellow;
+    margin-bottom: 10px;
+    padding: 45px;
+}
+.mom{
+    border: 2px solid;
+    background-color: lightgoldenrodyellow;
+    padding-left: 30px;
+}
+marquee{
+    border: 2px solid;
+    color: blueviolet;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows:  1fr;  
+      column-gap:55px;
+      margin-left: 20px;
+}
+.RIP1{
+    background-color: bisque;
+}
+
+
+
+
+
+
+
+
+
+
+
